@@ -1,0 +1,128 @@
+<!--HIDDEN MENU-->
+<div class=" card card-body d-md-none justify-content-center" id="collapseExample">
+  <div class="card-title pl-5 border-bottom" id="hidden-menu-title">Menu</div>
+  <ul class="d-flex flex-column align-items-start">
+        <li class="burger-inside mt-5 border-bottom border-light">
+            <a routerLink="" onclick="blurEffect(); readBurger()" class="burger-inside-link">Home</a>
+        </li>
+      <li class="burger-inside mt-5 mb-5 border-bottom border-light">
+          <a routerLink="formulaire" onclick="blurEffect(); readBurger()" class="burger-inside-link">Book your trip</a>
+      </li>
+      <li class="burger-inside mb-5 border-bottom border-light">
+          <a routerLink="topdestinations" onclick="blurEffect(); readBurger()" href="#" class="burger-inside-link">Top Destinations</a>
+      </li>
+      <li class="burger-inside border-bottom border-light">
+          <a routerLink="map" href="#" onclick="blurEffect(); readBurger()" class="burger-inside-link">Check Map</a>
+      </li>
+  </ul>
+  
+</div>  
+
+<!------HEADER------>
+
+<div class = "container-fluid d-flex to-blur" id="header">
+
+<!--PARTIE HAUTE DU HEADER-->
+<div class="container-fluid d-flex flex-row justify-content-start mt-3" id="title-and-social-container">
+  
+  <!--LOGO-->
+  <h1 class="col-6" id="logo"><a href="#" id="link-logo">SPACETOUR</a></h1>
+  
+  <!--BOUTONS LIKE, ACCOUNT, RESEAUX SOCIAUX-->
+  <div class="container justify-content-end col-0 col-md-6 d-flex" id="social-container">
+      <div class="d-block d-md-none" id="heart">
+          <a class="" href="#"><img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOfSURBVGhD7ZhJSFVhGIY1wywlU7ERi7QwLJqgqDalLYyQoIEWLRqICoNqY0VlUYsiIlNyUbSoICiaoGhhRRpBuWjAQhoWhpKLygik1NJMe77bq6jIvede7/UUnAde/uP7Df93B+8Zojw8PDw8PIKhs7MzpqOjYx5ayfFW1lVoPhqulICQOx5lo/X02Mi6HKUpHBnYIAOdQ1/YtD8aiZ1nna2SXuAPIb4JPUIdvoo+YFehXRzGqmzg0CwGHadxqzb5hR6iUnQEnUFlqKVHvBjFq4W9+JnoqcUNjt+zXGM9gY6iC6jmb9QXr0PZKg8deiXS6J6afkOHOExSuBfK3Y4alP9YXg5qkleOlnIYrbJeEJuD7ijX3ohtCgUPPey7flvNqlnSFfILeWPJv6+616gFtaMCrH4H7wt59n/xExlrZAcHhYUa4h1LomxHkB9LnX0CPjjOV8gx1KxA9sKb0WTZzqBgDLKvTCvKlB0U1KWielQqK2ioPaY34LIsZ1BzWIUlskKC+gW0GaE/g4baBHp8QvarNVF2YMh/qReQJcs1mKFIs+yU5R8SR6qgTparMIf9atk8V2X5h8RMFZTLchVGSdc8T2T5h8SFKrgly1UYJUnzVMvyD7nTVFAhy1WYI0PzOP4EUlRQI8tVmGOx5rkhKzAk16ooWZZrMIOdwW2Wg7ICQ/IVFa2T5RrMUK5ZcmQFhmS71reiMlmuwP6T0G/0mXGGyg4MBcNQAzJmyR502Pu03shTspxD0R43PwX2tRsou5L9gSbIdg5F8aheL2JQ/xfYMpo9H2jvk7KDh+I8awJ2uzhVdsRhr/22KWsN6r6zCwkanFWzNyhVdsRgj9XI7gPsUn6R7NBhdrs5qdSLeIVSFAo79M5DXffeod9O9oV+dm/7zBrDczRKobBB/9wew++THT5saBq/0AZv0RSFBgy9tqA29S6UHX5onox8j0dYv6IBPfqgjT04KFE/44BCkYO94tjokjZtQ46fNvSEunGoQn2a0FqFBgc23I3aNcBdNFqhgJC7DHU9P6pF7pzt2X8Jm3/QIB9RrkL9QtwuUYqQ79Eiy00UsV81RzBHEkNc10BGMYdxCneDn4WqlPcdbVbo34CBNjBbowa088V08/nTLgvyUbNilWjQzupBwWBpqOtZql2EFaCux5P2qHAvhzFK/zdhQHvHd9jANrjBsZ03Zijl/4CB5yJ7ZH6RdWAXZG7B8Ak69PDw8OiPqKg/80rNtX4cnqkAAAAASUVORK5CYII=" height="60" width="60"></a>
+      </div>
+      
+      <!--BURGER MENU-->
+      <div class="d-block d-md-none">
+      <button id="burger-button" onclick="blurEffect(); readBurger();">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEGSURBVGhD7ZgxCsIwGIWDi+DoGTxCj+AhPIB3UPAAOggdPYC7mzg4KDg4OngET9ALpL4H/ygSYktCfB88+jfww3shTds4IYQQog+891XbttOcRE9mLxw03dCcFfRk9sJhE7S22+Qgx/KXIE9oCM1MrPeJxh5QdJAjZmKAa0VZPU80doC0tMoIguasiA3CtflxP08lejJ7QoiuwINVQ+fMVJu9cNDE98gdu8UmE13pyeyFY0F2Vo8pqyeJxrZQdJAGMzHCdUVZ/Uo01kB//olSUpALtMhEJygqSBnbrxDiO3iwyvixQpMO6PoAOXRAxyA6oOsahNFHow7o+hI9mT0hhBCiQ5x7A7/Sm/12bPV/AAAAAElFTkSuQmCC" height="40" width="40">
+      </button>  
+      </div>
+      
+      <!--BOUTON ACCOUNT-->
+      <div class="d-none d-md-flex">
+      <ul id="social">
+          <li class="social-buttons">
+              <a class="links-social" href="#" style="margin-bottom: 0;">
+                  <div class="container d-flex flex-column align-items-center justify-content-center"><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANySURBVGhD7ZpLbA1hGIZbbboQgrhEE1GN2GAhocrORkgIGwtRiYaNS4kdgo1LWQhiQYikCBGJe9xZdE/UgsRC2AoSqgQtp57vzNsjU21Pz8w/80+TPsmbf+af73+/96QnZ24tc0kul5vU3d3diM6hZ+x/RJ2SbT9FLWgdGq9l2YFQ9ega6uQDDAqrRVdRnWz8QYhqdEXZIoPHZYbJsk0Xmi9FH4Io8TEvtFj26UDDDei3MjgDzy6GRrVJFpo1oFzQ2j3mDQ1qlww0WIB+qWdiWA+UzI8A/qMwfxe0Sh56vWEYqfbuwLg5aJEe9Nyv9m7AcCL6Lv/UoGcHwwTFiA+GuwNrL+xUjPjwQV7LNHXo/Uox4oFRrTy9QYYaxYkOJmvl5w0yrFGc6GByQH7eIMM+xYkOJmfl5w0ynFGc6GBySX7esAyKEx1MzsvPG2RoUZzoYHJUft4gwxHFiQ4mm+XnDTJsVJzoYFIvP2+QYZ7iRAefCow+B5bpQ+9PDBWKEw/MTge2Aex3oWVsznUp8zRvtguwf0ox4oOfNQpBgws67Aw8L8o+D/t2JzpHh92A553APoSz+2v818uzAHM3ddgdmM5AP9UjD/t2S7pcJZHBY6V5yTYP+z/QdJW4BePt6lPAAqAmlZSMrTUP2RVgbotK3IN/OQ1C3+MemH+AZqq0KNTORg+1PIT1UFly0KeKRreClmGY/4PuIbv0n6olBWzOjqHHVptf1AvmzbtKS5KFRnZuOZnvPADUtKO3Urum+4WaEwxuzhmlQOPVKPZjUzzeo1Wy9QM5xqHDBPmaT1UCrLG/2EE2x8rOP4QZgxoJdtsCWtB++GI1jFY7WsuzCSFHoGloEWFXmLRdw1iusmGG6Q1fkTp0CN1AS+J8XWytecirGSX7Ko6GlTSxk1kb2yGYe4n2oFkqLwq1dmbfa2tlU4C558hOqpUqdwOm9l7kRdBmYKizV2iP0DFkQbdKtn0cPUGDOvdQ14bmK0Y8MNqF+rycSAPrjXYoTungYZch3h8F9UCWFobSL19YWPRaKm0sk+INDhY0aW3mINsmxRwYCmvRN63LHGTrQMVfM1B0X2syCxnvKm7fULBQtZmHrP3/LHOwzzu/LELW64odhgNTUGL/0eAaotr5pVrx/8HkNtUMGcj8/9Mb5luDw0OK1iB9WdlfuJXjvqKUZ2gAAAAASUVORK5CYII=" width="30" height="30"> <p id="account-descriptor">Account</p></div></a>
+          </li>
+          
+          <!--BOUTONS RESEAUX SOCIAUX-->
+          <li class="social-buttons">
+              <a href="#"><img src="https://png.icons8.com/plasticine/40/ffffff/facebook.png" height="60" width="60"></a>
+          </li>
+          <li class="social-buttons">
+              <a href="#"><img src="https://png.icons8.com/color/40/ffffff/twitter-squared.png" height="55" width="55"></a>
+          </li>
+          <li class="social-buttons">
+              <a href="#"><img src="https://png.icons8.com/color/40/ffffff/google-plus.png" height="55" width="55"></a>
+          </li>
+      </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!--PARTIE INFERIEURE DU HEADER (RESEARCH BAR + DATE DEPART + TOP DESTINATION + CARTE)-->
+
+<div class="container-fluid justify-content-center mb-4" id="research-and-buttons-container">
+    <div class="row">
+        <h3 class="offset-1 to-orbitron text-light where-headed pl-4">Where are you headed?</h3>
+    </div>
+    
+    <div class="row">
+  
+  
+  <!--BARRE DE RECHERCHE-->
+  <div class="col-12 col-md-5 offset-md-1 d-flex">
+      <div class="input-group">
+          <input type="text" class="form-control border-rad-bar" placeholder="Destination" [(ngModel)]="writtenPlanet">
+          <button id="search-button" on-click="jupiSelect()">
+              <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPkSURBVGhD7ZlbiE1RHMZnkMsgtzcjbxIpHuQJ44VE5HY0GE3N/dJMDUJDTcn1wYtQJLmTB5fyqISSSy4hNXgiPHiQcWcYv4/v6IxmMPvsvWeO5qt/68y31vm+/3+ttfdeZ09WN7rRBVFRUTG6rKxsRWlp6WnaRuIt0aKAe0ncIPaVlJQsgxvkr3UNNDQ09CCxxSR4NZl0asB/aYd/T3uE4sdZqvNQXl4+iYRupST3hvYk7XKtTiKR6O2hWYWFhYM1nv419F8hvvo7avcWFxcP9dBYkU0C64gfs037nKgi2b7u/ytYxRF8Z0+KxhPaye6OHsxyTwwPyJz4RgJbqqqqBri7w2AlxqBzSXpofWTVFrkrUmRjeMhFvMV4ofm0oC2I3l7rNqM7113RAJN6mWH0TvvddGhAd0NSP7KbgC/UZkLbKZSVaAO69k6oGOJ+TU1NH/PhQLdYhG/LAKNNpiMBHjkqQl7EWtPhgOTzXcSLgoKC/qYjA6s/y4W8IsJ7cCJ23cIVpiIHk3bBnitMpQffHiXYFPqe/QPwmydfCrpjKj0gtMqFnDQVC/DLwVvHmBY9PE0HB2JnPDNLTcUGfM/aO99UcCDyUGI6O5mKDfiulzex0VRwIPJBYtyCe5mKDUzicnnTHjQVGDqSaEY++O9Yge8c+58yFRwWavafsQLfBfY/ZCo4ENFDqaWoqGigqdjAliqRN+12U8GByE3PykRTsQHPbS5kpangQGR/aGIdBJ435M2RZZqp4EAseee4bCoWkHwuvjppv0n9yRwY+i2N2EfiK9fJcNORA79aTSBx1lT6QOy4RXeZihR1dXX98HoqT1Zmuun0gdh4RLXMn/k8ynRkwGutiiCumwoPFJG86C+EsmfbARM1Fp8mQhM3w3R4qK6uHob4Mxez23So0PWI/iN77DQdPjhOT8Hkk43WQWX/7EkfvqlclDbRqOvEXdEAs6UY6SWEijnakZdy7UHbCa3HLkIh/YS7owMrMx+jH6diErhDO9NdHYLvTnqF+lpaqQGnN5CxFDMBowcpxudp5/zLlmAFchlfS+g1qb6vC/uck29VDGOjf/Oo3/CY6R3wrxnl8ztC/1aoJ4klfJ6tFaQtIrYS1+j7ljL+Hu1U6dEm+LtzihEqKyuHYLiauJuaRHvBOJ0UzpCgHnatbhj0t1WMnl/xFJMExiMx1vlsM+1h2lO0x4gdfK6nzfvb9lPSjOv8YsKAi/n8ezFEVK9ro8N/XwzxKSOLUdJtFUMs8JDMgYpx8t3FdCkoaSffqhiKzPOQzAGJtyqGInQ8ynF3ZsEHV61E5haRhLZTxhfRjcxCVtZ3OcPr+r3ZBoQAAAAASUVORK5CYII=" height="25" width="25"> -->
+              <a id="go-link" on-click="autoScroll()">Go !</a>
+              
+            </button>
+            
+          
+          
+          <!--<span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+          </span>-->
+      </div><!-- /input-group -->
+  </div>
+  
+  <!--INPUT DES DATES-->
+  <!-- <div class="col-0 col-md-3 d-none d-md-flex">
+      <div class="input-group">
+          <input type="date" class="form-control border-rad-bar" placeholder="Departure Date">
+          
+          
+      </div>
+  </div> -->
+  
+  <!--BOUTON TOP DESTINATIONS-->
+  <div class="col-0 col-md-2 d-none d-md-flex offset-1">
+      <button type="button" id="top-destination-button"><a id="top-destination-link" routerLink="/topdestinations">Top Destinations</a><i></i></button>
+  </div>
+  
+  <!--BOUTON CARTE-->
+  <div class="col-0 col-md-2 d-none d-md-flex ml-4">
+      <button id="map-topbar-button"><a routerLink="map" id="map-link"><img src="data:image/png;base64,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" height="35" width="35"> Map</a></button>
+      <!--<div class="input-group">
+          <input type="text" class="form-control border-rad-bar" placeholder="Destination">
+          <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+</span>
+      </div>--><!-- /input-group -->
+  </div>
+</div>
+  
+
+</div>
+</div>
+
+

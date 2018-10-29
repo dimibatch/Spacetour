@@ -1,0 +1,36 @@
+<div class="container top_destinations">
+      <h3>Top destinations</h3>
+</div>
+
+<div class="container input">
+  <div class="row">
+    <div class="search col-sm " align="center">
+      <a id="rien">Search destinations</a>
+      <input [(ngModel)] = "param_destinations"/>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row"> 
+    <div class="col-sm col-md-4 col-lg-4" *ngFor = "let destinations of destinations | triPlanet:param_destinations">
+      <a routerLink="/list">
+        <div class="zoom">
+          <div>
+        <div class="card " on-click="chgePlanet(); scrollTop()">
+        <img class="card-img-top" src= {{destinations.image}} alt="Card image cap">
+        <div class="card-body">
+          <p class="card-planets">{{destinations.destination}}</p>
+          <p class="card-text">{{destinations.ville}}</p>
+          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </a>
+    </div>
+  </div>
+</div>
+
+

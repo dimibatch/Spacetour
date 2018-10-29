@@ -1,0 +1,33 @@
+.header-to-black {
+    /* background-color: rgb(37, 37, 37); */
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    padding-bottom: 3em;
+    border: none;
+}
+
+.go-white{
+    background-color: chocolate;
+    color: white;
+}
+
+.choco-border {
+    border-bottom: rgb(37, 37, 37) solid 2px;
+    border-right: rgb(37, 37, 37) solid 2px;
+    border-left: rgb(37, 37, 37) solid 2px;
+}
+
+.sz {
+    font-size: 1.5em;
+}
+
+.c-fluid {
+    /* background-image: url(/assets/planesuperbright.jpeg);
+    background-size: cover; */
+    background-color: white;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}

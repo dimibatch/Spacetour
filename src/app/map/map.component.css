@@ -1,0 +1,234 @@
+.gros-container{
+    background-color: rgb(37, 37, 37);
+}
+ 
+ .truk-relatif {
+
+    position: relative;
+    text-align: center;
+    color:white;
+   padding-top: 10px;
+    
+}
+h2 {
+    color: white;
+    font-family: 'Orbitron';
+    font-style: italic;
+}
+.list-inline{
+    opacity:0;
+    width: 120px;
+    
+    color: #fff;
+    text-align: center;
+
+  
+
+}
+.terre {
+    position: absolute;
+    top: 66%;
+    left:21%;
+    font-size: 7.5vw;
+    transform: translate(-50%, -50%);
+} 
+
+.mercure {
+    position: absolute;
+    top: 41%;
+    left:17%;
+    font-size: 7vw;
+    transform: translate(-50%, -50%);
+} 
+
+.neptune {
+    position: absolute;
+    top: 43%;
+    left: 85%;
+    font-size: 12vw;
+
+}
+.saturne {
+    position: absolute;
+    top: 60%;
+    left: 61%;
+    font-size: 20vw;
+    transform: translate(-50%, -50%);
+}
+
+
+.jupiter {
+    position: absolute;
+    top: 26%;
+    left: 46%;
+    font-size: 10vw;
+    transform: translate(-50%, -50%);
+}
+.venus {
+    position: absolute;
+    top: 33%;
+    left: 78%;
+    font-size: 12vw;
+    transform: translate(-50%, -50%);
+}
+.mars {
+    position: absolute;
+    top: 52.5%;
+    left: 29%;
+    font-size:4vw;
+    transform: translate(-50%, -50%);
+}
+.moon {
+    position: absolute;
+    top: 63%;
+    left: 25.5%;
+    font-size: 2vw;
+    transform: translate(-50%, -50%);
+}
+
+.mercury {
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    font-size: 2vw;
+    transform: translate(-50%, -50%);
+}
+.responsive {
+    width: 100%;
+    height: auto;
+} 
+
+
+    
+#descriptifJupiter {  
+  text-align: justify;
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  width:35%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+    
+    
+}
+#descriptifSaturne {
+  text-align: justify;
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  width:20%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+    
+}
+#descriptifVenus{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 5%;
+  left: 73%;
+  width:25%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+    
+}
+#descriptifMercure{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width:30%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+    
+  
+}
+#descriptifMars{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 25%;
+  left: 21%;
+  width:20%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+    
+
+}
+#descriptifMoon{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 64%;
+  left: 26%;
+  width:20%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+    
+
+}
+#descriptifTerre{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 72%;
+  left: 12%;
+  width:20%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+
+ 
+}
+#descriptifNeptune{
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 70%;
+  left: 73%;
+  width:25%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+    
+}
+ 
+#descriptifMercury {
+  color:white;
+  display: none;
+  font-size: 1em;
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  width:25%; 
+  height:auto; 
+  float:left;
+  font-family: Orbitron;
+  text-align: justify;
+         
+}

@@ -1,0 +1,30 @@
+h4 {font-family: Orbitron;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+.form-group {text-align: center;
+             padding-top: 3em;
+
+}
+
+
+.form-control {font-family: Orbitron;
+               font-style: italic;
+}
+
+form {padding-left: 2em;
+}
+
+.search {
+         padding-top: 2em;
+         color: #616161;
+         font-family: Orbitron;
+}
+
+.btn-dark { width: 20em;
+            font-style: italic;
+            border-radius: 30px;
+}

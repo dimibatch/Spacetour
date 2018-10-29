@@ -1,0 +1,102 @@
+.carousel-img-limit {
+    /*min-height: 330px;
+    max-height: 400px;*/
+    height: 350px;
+    object-fit: cover;
+}
+
+.go-white {
+    color: white;
+}
+
+.to-cross {
+    text-decoration:line-through;
+    color: green;
+}
+
+.header-to-cancel {
+    background-color: white;
+    border: none;
+}
+
+.twin-button {
+    width: 50%;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 0px;
+    /*border-top: solid 1px darkgray;
+    border-right: solid 1px darkgray;
+    border-left: solid 1px darkgray;*/
+    text-align: center;
+    font-weight: bold;
+    max-height: 45px;
+}
+
+.single-button1 {
+    background-color: chocolate;
+    color: white;
+    
+}
+
+.single-button2 {
+    background-color: #f2f3f4;
+    color: black;
+    
+}
+
+.flip-body1 {
+    display: block;
+    border-left-color: chocolate;
+}
+
+.flip-body2 {
+    display: none;
+    border-left-color: chocolate;
+    border: 1px solid black;
+}
+
+.choco-borders {
+    border: solid 2px chocolate;
+}
+
+.book-trip-button {
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+}
+
+.header-to-black {
+    background-color: black;
+    color: white;
+    font-size:1.2em;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+
+.card-img-to-limit {
+    height: 250px;
+    object-fit: cover;
+}
+
+/*@media screen and (max-width: 960px) {
+  .carousel-img-limit {
+    max-height: 280px;
+  }
+}*/
+
+/*@media screen and (max-width: 760px) {
+  .carousel-img-limit {
+    max-height: 280px;
+  }
+}*/
+
+/*@media screen and (max-width: 560px) {
+  .carousel-img-limit {
+    max-height: 250px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .carousel-img-limit {
+    max-height: 180px;
+  }
+}*/

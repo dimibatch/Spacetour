@@ -1,0 +1,126 @@
+h2 {font-family: Orbitron;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em
+}
+
+/* .container-carousel {padding-left: 1em} */
+
+.ligne_horizontale_1 {border:1px solid #4f4f50;
+                      /* background-color: #a7a8aa; */
+                      /* margin-right: 0.3em; */
+                      margin-top: 2em;
+}
+
+h4 {font-family: Orbitron;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+.form-group {text-align: center;
+             padding-top: 3em;
+
+}
+
+/* .card-imge {
+    object-fit: cover;
+} */
+
+.form-control {font-family: Orbitron;
+               font-style: italic;
+}
+
+form {padding-left: 2em;
+}
+
+.search {
+         padding-top: 2em;
+         color: #616161;
+         font-family: Orbitron;
+}
+
+.btn-dark { width: 20em;
+            font-style: italic;
+            border-radius: 30px;
+            background-color: black;
+            border: #616161;
+            
+}
+
+
+.ligne-verticale { width:2px;
+                   border-left:3px solid  #424242;
+                   height:auto;
+                   margin-left: 5em;
+                   margin-top: 4em;
+                   margin-bottom: 4em;
+}
+
+.card-deck {padding-top: 2em;
+            padding-bottom: 2em;
+}
+
+h5 {font-family: Orbitron;
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+p {font-family : Comfortaa;
+   font-size: 0.9em;
+}
+
+.card-deck {width: 100%;
+}
+
+.card-jupiter {width: 100%;
+               height: 165px;
+}
+
+.card-mercure {width: 100%;
+               height: 165px;
+}
+    
+.card-lune {width: 100%;
+            height: 165px;
+}
+
+.ligne_horizontale_2 {border: 1.2px solid  #adacac;
+    background-color: #616161;
+    /* margin-right: 1.6em; */
+}
+
+.card-pluton {width: 100%;
+              height: 165px;
+}
+
+.card-neptune {width: 100%;
+               height: 165px;
+}
+
+.card-venus {width: 100%;
+             height: 165px;
+}
+
+.btn-danger {font-family: Orbitron;
+             font-size: 1.2em;
+             font-weight: bold;
+             border-radius: 30px;
+             width: 6em;
+}
+
+
+.card-footer {font-size: 1.25em;
+              font-family: Comfortaa;
+              font-weight: bold;
+              text-align: center;
+}
+
+.stars {color: orange;
+}
+

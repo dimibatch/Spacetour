@@ -1,0 +1,98 @@
+.planet-characteristic {background-color: white;
+    border: solid rgb(66, 66, 66);
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#to-white {
+    color: white;
+}
+
+.card-jupiter {padding-top: 1.5em}
+
+.card-title {padding-top: 2em;
+}
+
+.card-text {padding-bottom: 1em;
+}
+
+h5 {padding-bottom: 2,5em;
+font-family: Orbitron;
+font-style: italic;
+}
+
+h6 {font-family: Orbitron;
+font-style: italic;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+.card-text {font-family: Orbitron;
+}
+
+
+.h4 {background-color: white;
+padding-top: 1em;
+padding-bottom: 1em;
+margin-bottom: 1.5em;
+margin-top: 2em;
+border: solid black;
+}
+
+h4 {font-family: Orbitron;
+font-style: italic;
+font-weight: bold;
+text-align: center;
+font-size: 1.5em;
+}
+
+.hotel-resume {
+border: solid rgb(66, 66, 66);
+background-color: white;
+}
+
+.card-title {padding-bottom: .5em;
+position:relative;
+}
+
+.card-text-hotel {font-family: Comfortaa;
+padding-left: .5em;
+padding-right: .5em;
+}
+
+.card-picture {padding-top: 1em;}
+
+h5 {padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+}
+
+.btn-danger {border-radius: 30px;
+font-family: Orbitron;
+width: 7em;
+font-weight: bold;
+margin-top: -3.7em
+}
+.btn-dark {width: 240px;
+font-family: Orbitron;
+font-style: italic;
+margin-top: 2.5em;
+margin-bottom: 2em;
+}
+
+.center-button {text-align: center;
+}
+
+.text-avis {font-family: Comfortaa;
+font-size: 1.2em;
+padding-left: 1em;
+}
+
+.stars {color: orange;
+}
+
+hr {background-color: white;
+height: 2px;
+}

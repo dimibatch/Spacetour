@@ -1,0 +1,69 @@
+.top_destinations { width: 100%;
+}
+
+h3 { font-family: Orbitron;
+     font-style: italic;
+     font-size: 3em;
+     text-align: center;
+     padding-top: 1em;
+     padding-bottom: 1em;
+}
+
+.input { padding-bottom: 1em;
+         font-family: Orbitron;
+         font-style: italic;
+         margin-bottom: 6em;
+         width: 100%;
+}
+
+#rien { font-family: Orbitron;
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}
+
+input { 
+        width: 80%;
+        border: solid black;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 2em;
+        font-style: italic;  
+}
+
+.card { width: 100%;
+        border: solid black;
+        margin-bottom: 4em;
+}
+
+.card-img-top { height: 12em;
+                width: 100%;
+                
+}
+
+.card-planets { font-family: Orbitron;
+                font-style: italic;
+                font-size: 2em;
+}
+
+.card-text { font-family: Orbitron;
+             font-style: italic;
+             font-size: 1.4em;
+}
+
+.text { font-family: Comfortaa;}
+
+.zoom div .card {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        }
+.zoom div:hover .card {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        }

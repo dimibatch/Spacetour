@@ -1,0 +1,56 @@
+.container-fluid {
+    background: #616161;
+    height: auto;
+    /* margin-left: 5px;
+    margin-right:5px; */
+    margin-top: 5px;
+  
+  }
+  .row {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-family: Comfortaa; 
+  }
+  .small-caps{
+    font-size: 0.7em;
+  }
+  hr {
+    height: 1px;
+    margin: 2em;
+    padding: 0;
+    background-color: white;
+    border: 0;
+  }
+  
+  @viewport {
+     width: device-width; 
+     zoom: 1;
+  
+    
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+    position: inherit;
+  }
+  
+  @media screen and (max-width: 625px){
+    position: inherit;
+  }
+  
+  #div2 {
+  
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:25px;
+    background: #616161;
+    height: auto;
+  
+  }
+  .col-xs-6 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
