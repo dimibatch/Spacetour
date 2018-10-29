@@ -48,4 +48,33 @@ export class DescriptifHotelComponent implements OnInit {
       this.ndata.transformPrice('7700$');
     }
   }
+
+  public clickDetails() {
+    if ((document.getElementsByClassName('single-button1')[0] as HTMLElement).style.backgroundColor!='chocolate') {
+        
+        (document.getElementsByClassName('single-button1')[0] as HTMLElement).style.backgroundColor='chocolate';
+        (document.getElementsByClassName('single-button2')[0] as HTMLElement).style.backgroundColor='#f2f3f4';
+        (document.getElementsByClassName('single-button1')[0] as HTMLElement).style.color='#f2f3f4';
+        (document.getElementsByClassName('single-button2')[0] as HTMLElement).style.color='black';
+        
+        (document.getElementsByClassName('single-button1')[0] as HTMLElement).style.height='100';
+        
+        (document.getElementsByClassName('flip-body1')[0] as HTMLElement).style.display='block';
+        (document.getElementsByClassName('flip-body2')[0] as HTMLElement).style.display='none';
+
+    }
+  }
+    
+  public clickReviews() {
+    if ((document.getElementsByClassName('single-button2')[0] as HTMLElement).style.backgroundColor!='chocolate') {
+        
+        (document.getElementsByClassName('single-button2')[0] as HTMLElement).style.backgroundColor='chocolate';
+        (document.getElementsByClassName('single-button1')[0] as HTMLElement).style.backgroundColor='#f2f3f4';
+        (document.getElementsByClassName('single-button2')[0] as HTMLElement).style.color='#f2f3f4';
+        (document.getElementsByClassName('single-button1')[0] as HTMLElement).style.color='black'; 
+        
+        (document.getElementsByClassName('flip-body2')[0] as HTMLElement).style.display='block';
+        (document.getElementsByClassName('flip-body1')[0] as HTMLElement).style.display='none';
+    }
+}
 }

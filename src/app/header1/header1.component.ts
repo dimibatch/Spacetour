@@ -81,4 +81,26 @@ export class Header1Component implements OnInit {
       (document.getElementById('destination-select')as HTMLInputElement).value = "pluto";
     }
   }
+  public readBurger() {
+    if (document.getElementById('collapseExample').style.marginLeft!='-30px') {
+        console.log("ca marche");
+        document.getElementById('collapseExample').style.marginLeft='-30px'; 
+    }
+    else {  
+        document.getElementById('collapseExample').style.marginLeft='-900px';  
+    }
+  }  
+  
+  public blurEffect() {
+  if ((document.getElementsByClassName('to-blur')[0] as HTMLElement).style.filter!='blur(7px)') {
+      (document.getElementsByClassName('to-blur')[0] as HTMLElement).style.filter='blur(7px)';
+      (document.getElementsByClassName('to-blur')[1] as HTMLElement).style.filter='blur(7px)';    
+  }
+  else {
+      (document.getElementsByClassName('to-blur')[0] as HTMLElement).style.filter='blur(0px)';
+      (document.getElementsByClassName('to-blur')[1] as HTMLElement).style.filter='blur(0px)';   
+  }
+} 
+  
+
 }
