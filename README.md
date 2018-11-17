@@ -1,27 +1,25 @@
 # SPACETOUR
-
+A gorgeous Angular app that I built with 2 other students. It's the app of Spacetour, a fictitious space travel agency.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
-## Development server
+## Getting Started: Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Live version of the website
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The site is hosted on github pages: https://dimibatch.github.io/Wired-News-Site-Clone/
 
-## Build
+## Built With
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* [Angular 6](https://angular.io/) - The framework
+* [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - The library used
+* [GreenSock](https://greensock.com/) - Animations
 
-## Running unit tests
+## Authors
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* **Dimitri Batchevitch**
+* **Kevin Compain**
+* **Florence Sivadier**
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
