@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ### Live version of the website
 
-The site is hosted on github pages: https://dimibatch.github.io/Wired-News-Site-Clone/
+The site is hosted on github pages: https://dimibatch.github.io/Spacetour/
 
 ## Built With
 
